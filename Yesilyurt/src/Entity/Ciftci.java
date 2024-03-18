@@ -19,7 +19,7 @@ public class Ciftci implements IEntity {
 		this.tcNo = tcNo;
 	}
 	public String getName() {
-		return "Sayın "+ Name;
+		return  Name;
 	}
 	public void setName(String name) {
 		Name = name;

@@ -17,10 +17,10 @@ public class Main {
 					+ "on cks.CiftciId=ciftciler.Id");
 			int sayac=1;
 			Ciftci ciftci=new Ciftci();
-			
+			//-------
 			while (liste.next()) {
-				ciftci.setName(liste.getString(3));
-				System.out.println(sayac+"-> "+ ciftci.getName());
+				
+				System.out.println(liste.getString(1)+"-> "+ liste.getString(3)+" "+liste.getString(6));
 				sayac++;
 
 			}
