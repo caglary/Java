@@ -1,7 +1,9 @@
 package Entity;
 
 public class Ciftci implements IEntity {
+	//Database nesnesi olup olmadığını işaretlemek için oluşturuldu.
 	private int id;
+	
 	private String tcNo;
 	private String Name;
 	private String Surname;
@@ -19,13 +21,13 @@ public class Ciftci implements IEntity {
 		this.tcNo = tcNo;
 	}
 	public String getName() {
-		return  Name;
+		return  Name.toUpperCase();
 	}
 	public void setName(String name) {
 		Name = name;
 	}
 	public String getSurname() {
-		return Surname;
+		return Surname.toUpperCase();
 	}
 	public void setSurname(String surname) {
 		Surname = surname;
